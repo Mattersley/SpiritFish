@@ -1,0 +1,25 @@
+.authHeader {
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 45px;
+}
+
+.authHeader h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.authModeButton {
+    background-color: white;
+    border: none;
+    color: green;
+    margin: 0;
+    padding: 0;
+    opacity: 60%;
+    text-align: center;
+}
+
+.authModeButton:hover {
+    color: #4e555b;
+}

@@ -1,0 +1,24 @@
+.Divider {
+    align-items: center;
+    cursor: col-resize;
+    display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+    margin-left: -25px;
+    width: 25px;
+    z-index: 100;
+}
+
+.DividerTab {
+    border-right: 2px solid white;
+    height: 60px;
+    margin-right: 3px;
+    transition: all 1s;
+    width: 2px;
+}
+
+.Divider:hover .DividerTab {
+    border-right: 4px solid lightgrey;
+    height: 200px;
+    transition: all 1s;
+}

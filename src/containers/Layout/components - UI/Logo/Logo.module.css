@@ -1,0 +1,37 @@
+.Logo {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto -15px 100px;
+    overflow: visible;
+    width: fit-content;
+}
+
+.Logo img {
+    height: 40px;
+    margin-bottom: -14px;
+    transform: rotate(90deg) scaleY(-1);
+}
+
+.Logo h1 {
+    background: linear-gradient(to right, darkseagreen, forestgreen 50%, darkgreen 50%, black, black, black) 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    color: black;
+    font-family: 'SpiritFishLogoFont', sans-serif;
+    font-size: 2rem;
+    letter-spacing: -1px;
+    overflow: hidden;
+    transition: background-position 600ms ease;
+}
+
+.Logo h1:hover {
+    background-position: 0 100%;
+}
+
+a:any-link {
+    text-decoration: none;
+}

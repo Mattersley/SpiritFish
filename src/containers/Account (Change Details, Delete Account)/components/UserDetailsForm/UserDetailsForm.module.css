@@ -1,0 +1,23 @@
+.UserDetailsForm {
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+
+.UserDetailsForm h4 {
+    margin-bottom: 20px;
+}
+
+.UserDetailsForm p {
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .UserDetailsForm {
+        width: 70%;
+    }
+}
+
+.Error {
+    color: red;
+}

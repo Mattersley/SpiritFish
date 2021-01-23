@@ -1,0 +1,23 @@
+.Burger {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 1.6rem;
+    justify-content: space-around;
+    padding: 0;
+    margin-right: 16px;
+    width: 2rem;
+    z-index: 10;
+}
+
+.Burger div {
+    width: 1.5rem;
+    height: 0.2rem;
+    border: 1.8px solid darkgreen;
+    border-radius: 1px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}

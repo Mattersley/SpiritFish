@@ -1,0 +1,40 @@
+.BottleView {
+    background: url("../../../../assets/images/Backgrounds/Ferns.jpg") top left / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 100vh;
+    min-width: 30%;
+    overflow: hidden;
+    padding: 29px 0;
+    width: 30%;
+}
+
+.bvHeader {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.whiteLogo {
+    flex-grow: 2;
+    height: 30px;
+    margin: 0 5% 0 15%;
+    transition: all 1s;
+}
+
+.whiteLogo:hover {
+    transform: rotateY(-180deg) rotateX(180deg);
+}
+
+.whiteLine {
+    border: 1px solid white;
+    flex-grow: 1;
+    width: 80%;
+}
+
+.bvContent {
+    overflow: hidden;
+    text-align: center;
+}

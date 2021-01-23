@@ -1,0 +1,9 @@
+.Toolbar {
+    align-items: center;
+    align-content: center;
+    background: lightgray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}

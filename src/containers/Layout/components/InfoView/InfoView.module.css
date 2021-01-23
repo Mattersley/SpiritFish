@@ -1,0 +1,14 @@
+.InfoView {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 30%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.Content {
+    margin: auto 0 auto 0;
+}

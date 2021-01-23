@@ -1,0 +1,10 @@
+.BottleCarousel {
+    display: inline;
+    text-align: center;
+}
+
+.BottleImage {
+    height: auto;
+    max-width: 70%;
+    min-width: 50%;
+}
