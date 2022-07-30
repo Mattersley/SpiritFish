@@ -1,0 +1,18 @@
+.RegisterForm {
+    padding: 40px 30px;
+}
+
+.RegisterForm h4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.RegisterForm p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Error {
+    color: red;
+    margin-bottom: 40px;
+}

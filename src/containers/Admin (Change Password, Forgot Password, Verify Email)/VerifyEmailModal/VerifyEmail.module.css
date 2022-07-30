@@ -1,0 +1,22 @@
+.VerifyEmail {
+    margin: 20px auto;
+}
+
+.resendBox {
+    padding-top: 20px;
+}
+
+@media (min-width: 769px) {
+    .VerifyEmail {
+        width: 60%;
+
+    }
+}
+
+.Error {
+    color: red;
+}
+
+.Success {
+    color: green;
+}

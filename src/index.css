@@ -1,0 +1,35 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    display: flex;
+}
+
+/*noinspection ALL*/
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+p, input {
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}
+
+@font-face {
+    font-family: 'SpiritFishLogoFont';
+    src:url('./assets/fonts/BM-HANNA.ttf.woff') format('woff'),
+    url('./assets/fonts/BM-HANNA.ttf.svg#BM-HANNA') format('svg'),
+    url('./assets/fonts/BM-HANNA.ttf.eot'),
+    url('./assets/fonts/BM-HANNA.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}

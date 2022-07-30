@@ -1,0 +1,33 @@
+.Footer {
+    align-items: center;
+    background: lightgray;
+    display: flex;
+    flex-flow: row wrap;
+    height: 70px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footerLinks {
+    font-weight: lighter;
+    font-size: 0.8rem;
+    font-family: 'Gill Sans', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.copyright {
+    align-items: flex-end;
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    font-family: 'Gill Sans', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.copyright img {
+    height: 50px;
+    margin-bottom: -8px;
+}

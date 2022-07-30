@@ -1,0 +1,19 @@
+.taglineText {
+    background: linear-gradient(-45deg, darkseagreen, forestgreen 50%, darkgreen 50%, black, darkseagreen) 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    color: white;
+    font-family: 'SpiritFishLogoFont', sans-serif;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    margin: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: background-position 600ms ease;
+}
+
+.taglineText:hover {
+    background-position: 0 100%;
+}

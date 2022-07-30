@@ -1,0 +1,41 @@
+.welcomeGroup {
+    display: block;
+    margin: -200px 0 80px 0;
+    padding: 0 45px;
+    text-align: center;
+}
+
+.welcomeText {
+    font-family: 'SpiritFishLogoFont', sans-serif;
+
+}
+
+.registerGroup {
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 0 45px;
+    text-align: center;
+}
+
+.RegisterDistillery h5 {
+    margin: 15px 0;
+    padding: 0 45px;
+}
+
+.emailInput {
+    margin: 0 0 -25px 0;
+    padding: 0 45px;
+}
+
+.notAuthorized {
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 0 45px;
+    text-align: center;
+}
+
+/*@media (min-width: 1200px) {*/
+/*    .emailInput {*/
+/*        margin: 0 18px -65px 18px;*/
+/*    }*/
+/*}*/

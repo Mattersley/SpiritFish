@@ -1,0 +1,18 @@
+.DistilleryAuthForm {
+    padding: 40px 30px;
+}
+
+.DistilleryAuthForm h4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.DistilleryAuthForm p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Error {
+    color: red;
+    font-size: 1rem;
+}

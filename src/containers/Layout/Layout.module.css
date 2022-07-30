@@ -1,0 +1,8 @@
+.Layout {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    min-height: 100%;
+    width: 100vw;
+}

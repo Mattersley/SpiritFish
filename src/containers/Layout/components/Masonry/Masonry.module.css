@@ -1,0 +1,47 @@
+.masonryParent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.masonryHeading {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 0.4rem;
+    letter-spacing: 8px;
+    text-align: center;
+    margin: 10px;
+}
+
+.masonryCard {
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+    transition: 0.4s;
+    height: 300px;
+    width: 200px;
+    border: 1px solid lightgrey;
+}
+
+.masonryBig {
+    flex-grow: 2;
+    width: 400px;
+    display: flex;
+    margin: 10px;
+    transition: 0.4s;
+    height: 300px;
+    border: 1px solid lightgrey;
+}
+
+.masonryBig:hover {
+    transform: scale(1.02, 1.02);
+    transition: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.masonryCard:hover {
+    transform: scale(1.02, 1.02);
+    transition: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,107 @@
+.Button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+Button, select {
+    text-transform: none;
+}
+
+Button, input {
+    overflow: visible;
+}
+
+.Button:disabled {
+    pointer-events: none;
+}
+
+.Button:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+[type=reset], [type=submit], Button, html [type=button] {
+    -webkit-appearance: button;
+}
+
+.Button:focus, .Button:hover {
+    text-decoration: none;
+}
+
+.Button.focus, .Button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+}
+
+.btnBlock {
+    display: block;
+    width: 100%;
+}
+
+.Success {
+    color: #28a745;
+    background: transparent none;
+    border-color: #28a745;
+}
+
+.Success:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.Success:disabled {
+    color: #8e9f8f;
+    background: transparent none;
+    border-color: #8e9f8f;
+}
+
+.Success.focus, .Success:focus {
+    box-shadow: 0 0 0 .2rem rgba(40,167,69,.5);
+}
+
+.Danger {
+    color: #dc3545;
+    background-color: transparent;
+    background-image: none;
+    border-color: #dc3545;
+}
+
+.Danger:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.Danger.focus, .Danger:focus {
+    box-shadow: 0 0 0 .2rem rgba(220,53,69,.5);
+}
+
+.Secondary {
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+}
+
+.Secondary:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.Secondary.focus, .Secondary:focus {
+    box-shadow: 0 0 0 .25rem rgba(108,117,125,.5);
+}

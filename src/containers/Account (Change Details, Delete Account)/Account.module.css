@@ -1,0 +1,17 @@
+.Account {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.Account h4 {
+    margin-bottom: 20px;
+
+}
+
+@media (min-width: 768px) {
+    .Account {
+        width: 70%;
+    }
+}
